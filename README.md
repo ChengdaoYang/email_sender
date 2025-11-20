@@ -1,6 +1,7 @@
 # EmailSender Python Module
 
 send yourself via email the remote machine's public ip address if the ip changed. for people who work on a remote machine without static ip
+if you are lazy just run ./schedule_python_cron.sh, it will guide you to set up everything. 
 
 ---
 
