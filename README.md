@@ -1,6 +1,6 @@
 # EmailSender Python Module
 
-A lightweight Python module to send emails, track public IP changes, and notify recipients automatically.
+send yourself via email the remote machine's public ip address if the ip changed. for people who work on a remote machine without static ip
 
 ---
 
@@ -28,7 +28,6 @@ python3 send_ip.py
 4. **Schedule automatic sending**:
 
 ```bash
-chmod +x schedule_python_cron.sh
 ./schedule_python_cron.sh
 ```
 
