@@ -82,7 +82,6 @@ python3 send_ip.py
 ### Schedule automatic sending
 
 ```bash
-chmod +x schedule_python_cron.sh
 ./schedule_python_cron.sh
 ```
 
