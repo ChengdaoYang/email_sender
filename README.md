@@ -1,7 +1,16 @@
 # EmailSender Python Module
 
 send yourself via email the remote machine's public ip address if the ip changed. for people who work on a remote machine without static ip
-if you are lazy just run ./schedule_python_cron.sh, it will guide you to set up everything. 
+if you are lazy just run ./schedule_python_cron.sh, it will guide you to set up everything. except adding email_recipients:
+ you need to create and edit `email_recipients.json` in the emial_sender folder to add/remove recipients:
+
+```json
+{
+  "recipients": [
+    "your@email.com",
+    "her@gmail.com"
+  ]
+}
 
 ---
 
@@ -34,32 +43,6 @@ python3 send_ip.py
 
 * Follow prompts to choose frequency and time
 * Confirm you received the test email before scheduling
-
----
-
-## Features
-
-* Object-oriented email sending
-* Supports multiple recipients via JSON (`email_recipients.json`)
-* Stores sender credentials locally (`email_sender_config.json`)
-* Sends email only if the public IP changes
-* Easy automation via cron with an interactive scheduler
-
----
-
-## Project Structure
-
-```
-email_sender/
-├── __init__.py
-├── email_sender.py
-├── send_ip.py
-├── schedule_python_cron.sh
-├── email_last.json
-├── ip_last.json
-├── email_recipients.json
-└── __pycache__/
-```
 
 ---
 
