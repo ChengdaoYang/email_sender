@@ -1,0 +1,25 @@
+gnore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment folder
+venv/
+.env/
+
+# Ignore config files and secrets
+email_sender_config.json
+email_last.json
+email_recipients.json
+
+# Ignore logs
+*.log
+
+# Ignore any other non-Python files
+*.txt
+*.md
+*.json
+*.csv
+*.sqlite
+
