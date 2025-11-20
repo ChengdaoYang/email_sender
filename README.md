@@ -11,7 +11,7 @@ if you are lazy just run ./schedule_python_cron.sh, it will guide you to set up 
     "her@gmail.com"
   ]
 }
-
+```
 ---
 
 ## Quick Start
